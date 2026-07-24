@@ -7,12 +7,3 @@ spec:
   type: Service
   lifecycle: production
   owner: idp-team
-catalog:
-  rules:
-    - allow: [Component, API, Location, Template]
-
-  locations:
-    - type: url
-      target: https://github.com/sekharpe/helloworldidp/blob/master/helloworld.yaml
-      rules:
-        - allow: []
